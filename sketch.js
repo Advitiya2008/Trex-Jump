@@ -30,7 +30,7 @@ function setup() {
   trex.addAnimation("c",collided);
   trex.scale=0.5;
   trex.setCollider("circle", 0, 0, 40);
-  trex.debug=true;
+  //trex.debug=true;
   
   ground = createSprite(300, 185, 600, 10);
   ground.addImage("g",groundimage);
